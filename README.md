@@ -1,3 +1,5 @@
+# rrd2mqtt
+
 Small script to publish updates to an RRD database as MQTT topics. It analyses the latest entry in an RRD file, checks its age and publishes all found data sets as topics with the name "[domain]/[dataset_name]". Runs either cyclically or as one-shot.
 
 Takes two mandatory arguments:
